@@ -233,6 +233,7 @@ def generate_r_docs(app):
         r-testthat=2.0.0=r351h29659fb_0 \
         cmake=3.14.0=h52cb24c_0 \
         ca-certificates=2019.11.27=0
+    /home/docs/.conda/bin/conda clean --all -y
     /home/docs/.conda/bin/conda install -q -y -n r_env -c conda-forge \
         r-pkgdown=1.3.0=r35h6115d3f_1001 \
         r-roxygen2=6.1.1=r35h0357c0b_1001
